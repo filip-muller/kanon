@@ -1,0 +1,12 @@
+0) Název knihy s interpunkcí
+1) Celé jméno autora s interpunkcí
+2) Období, kam dílo spadá:
+    # '18' - 18. století a starší
+    # '19' - 19. století
+    # '20-21-sv' - světová literatura 20. a 21. století
+    # '20-21-cz' - česká literatura 20. a 21. století
+3) Literární druh - proza/poezie/drama
+
+Odděleno středníky, obsahuje ho však dílo 
+"Vítězslav Nezval: Abeceda; Podivuhodný kouzelník"
+v něm je středník nahrazen čárkou
