@@ -90,10 +90,10 @@ id;nazev;autor;obdobi;druh
 89;Selské písně a české znělky;Josef Václav Sládek;19;
 90;ohlasová poezie;František Ladislav Čelakovský;19;
 91;Kalibův zločin;Karel Václav Rais;19;
-92;Maškaráda;Michail Jurijevič Lermontov;;drama
-93;Revizor;Nikolaj Vasiljevič Gogol;;drama
-94;Ženitba;Nikolaj Vasiljevič Gogol;;drama
-95;Král Ubu;Alfréd Jarry;;drama
+92;Maškaráda;Michail Jurijevič Lermontov;19;drama
+93;Revizor;Nikolaj Vasiljevič Gogol;19;drama
+94;Ženitba;Nikolaj Vasiljevič Gogol;19;drama
+95;Král Ubu;Alfréd Jarry;19;drama
 96;Višňový sad;Anton Pavlovič Čechov;;drama
 97;Tři sestry;Anton Pavlovič Čechov;;drama
 98;Gazdina roba;Gabriela Preissová;;drama
@@ -125,37 +125,37 @@ id;nazev;autor;obdobi;druh
 124;Periferie;František Langer;;drama
 125;Manon Lescaut;Vítězslav Nezval;;drama
 126;Její pastorkyňa;Gabriela Preissová;;drama
-127;Alkoholy;Guillaume Apollinaire;20-21-;poezie
-128;Osvobozená slova;Filippo Tommaso Marinetti;20-21-;poezie
-129;Pustina;Thomas Stearns Eliot;20-21-;poezie
-130;Po nás ať přijde potopa;František Gellner;20-21-;poezie
-131;Měsíce;Karel Toman;20-21-;poezie
-132;Těžká hodina;Jiří Wolker;20-21-;poezie
-133;Edison;Vítězslav Nezval;20-21-;poezie
-134;Abeceda, Podivuhodný kouzelník;Vítězslav Nezval;20-21-;poezie
-135;Na vlnách TSF;Jaroslav Seifert;20-21-;poezie
-136;Morový sloup;Jaroslav Seifert;20-21-;poezie
-137;Torso naděje;František Halas;20-21-;poezie
-138;Bolest;Vladimír Holan;20-21-;poezie
-139;Příběhy;Vladimír Holan;20-21-;poezie
-140;Odlet vlaštovek;Bohuslav Reynek;20-21-;poezie
-141;Znamení moci;Jan Zahradníček;20-21-;poezie
-142;Romance pro křídlovku;František Hrubín;20-21-;poezie
-143;Elegie;Jiří Orten;20-21-;poezie
-144;Pomocná škola Bixley;Ivan Blatný;20-21-;poezie
-145;Lazar a píseň;Josef Kainar;20-21-;poezie
-146;Dny v roce;Jiří Kolář;20-21-;poezie
-147;Český orloj;Karel Šiktanc;20-21-;poezie
-148;Co zbylo z anděla;Jan Skácel;20-21-;poezie
-149;Magorovy labutí písně;Ivan Martin Jirous;20-21-;poezie
-150;Blues pro bláznivou holku;Václav Hrabě;20-21-;poezie
-151;Kvílení;Allen Ginsberg;20-21-;poezie
-152;Startuji ze San Francisca;Lawrence Ferlinghetti;20-21-;poezie
-153;poezie;Vladimír Vysockij;20-21-;poezie
-154;Koncert na ostrově;Jaroslav Seifert;20-21-;poezie
-155;Píseň o Viktorce;Jaroslav Seifert;20-21-;poezie
-156;Achilles a želva;Miroslav Holub;20-21-;poezie
-157;Bestiální něha;J. H. Krchovský;20-21-;poezie
+127;Alkoholy;Guillaume Apollinaire;20-21-svet;poezie
+128;Osvobozená slova;Filippo Tommaso Marinetti;20-21-svet;poezie
+129;Pustina;Thomas Stearns Eliot;20-21-svet;poezie
+130;Po nás ať přijde potopa;František Gellner;20-21-cz;poezie
+131;Měsíce;Karel Toman;20-21-cz;poezie
+132;Těžká hodina;Jiří Wolker;20-21-cz;poezie
+133;Edison;Vítězslav Nezval;20-21-cz;poezie
+134;Abeceda, Podivuhodný kouzelník;Vítězslav Nezval;20-21-cz;poezie
+135;Na vlnách TSF;Jaroslav Seifert;20-21-cz;poezie
+136;Morový sloup;Jaroslav Seifert;20-21-cz;poezie
+137;Torso naděje;František Halas;20-21-cz;poezie
+138;Bolest;Vladimír Holan;20-21-cz;poezie
+139;Příběhy;Vladimír Holan;20-21-cz;poezie
+140;Odlet vlaštovek;Bohuslav Reynek;20-21-cz;poezie
+141;Znamení moci;Jan Zahradníček;20-21-cz;poezie
+142;Romance pro křídlovku;František Hrubín;20-21-cz;poezie
+143;Elegie;Jiří Orten;20-21-cz;poezie
+144;Pomocná škola Bixley;Ivan Blatný;20-21-cz;poezie
+145;Lazar a píseň;Josef Kainar;20-21-cz;poezie
+146;Dny v roce;Jiří Kolář;20-21-cz;poezie
+147;Český orloj;Karel Šiktanc;20-21-cz;poezie
+148;Co zbylo z anděla;Jan Skácel;20-21-cz;poezie
+149;Magorovy labutí písně;Ivan Martin Jirous;20-21-cz;poezie
+150;Blues pro bláznivou holku;Václav Hrabě;20-21-cz;poezie
+151;Kvílení;Allen Ginsberg;20-21-svet;poezie
+152;Startuji ze San Francisca;Lawrence Ferlinghetti;20-21-svet;poezie
+153;poezie;Vladimír Vysockij;20-21-svet;poezie
+154;Koncert na ostrově;Jaroslav Seifert;20-21-cz;poezie
+155;Píseň o Viktorce;Jaroslav Seifert;20-21-cz;poezie
+156;Achilles a želva;Miroslav Holub;20-21-cz;poezie
+157;Bestiální něha;J. H. Krchovský;20-21-cz;poezie
 158;Smrt v Benátkách;Thomas Mann;20-21-svet;proza
 159;Proces;Franz Kafka;20-21-svet;proza
 160;Zámek;Franz Kafka;20-21-svet;proza
