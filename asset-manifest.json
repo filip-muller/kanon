@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kanon/static/css/main.91e3d255.css",
+    "main.js": "/kanon/static/js/main.43b6f89e.js",
+    "static/js/787.0c3f432a.chunk.js": "/kanon/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/kanon/index.html",
+    "main.91e3d255.css.map": "/kanon/static/css/main.91e3d255.css.map",
+    "main.43b6f89e.js.map": "/kanon/static/js/main.43b6f89e.js.map",
+    "787.0c3f432a.chunk.js.map": "/kanon/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91e3d255.css",
+    "static/js/main.43b6f89e.js"
+  ]
+}
