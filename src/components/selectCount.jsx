@@ -15,7 +15,7 @@ class SelectCount extends Component {
     let potreba = this.props.potreba;
     return (
       <span
-        className={this.getBadgeStyle(vybrano, potreba) + "badge ml-3 p-2 mr-3"}
+        className={this.getBadgeStyle(vybrano, potreba) + "badge ml-3 mb-2 p-2"}
       >
         {this.props.text + ": " + vybrano + "/" + potreba}
       </span>

@@ -26,7 +26,7 @@ let s = `1;Epos o Gigamešovi;;18;poezie
 26;Cid;Pierre Corneille;18;drama
 27;Lakomec;Moliere;18;drama
 28;Tartuffe;Moliere;18;drama
-29;Bajky;Jean de la Fontaine;18;
+29;Bajky;Jean de la Fontaine;18;proza
 30;Gulliverovy cesty;Jonathan Swift;18;proza
 31;Skromný návrh;Jonathan Swift;18;proza
 32;Candide;Voltaire;18;proza

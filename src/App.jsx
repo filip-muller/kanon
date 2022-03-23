@@ -57,8 +57,11 @@ class App extends Component {
   render() {
     let { knihy } = this.state;
     return (
-      <div>
+      <div className="mb-2">
         <Navbar pocty={this.state.pocty} />
+        <a className="m-5" style={{ color: "grey" }}>
+          <b>Tip:</b> pro vyhledávání použij Ctrl+F
+        </a>
         <div className="m-3">
           <ListDel
             knihy={knihy}
@@ -86,7 +89,8 @@ class App extends Component {
           />
         </div>
         <a className="m-5" style={{ color: "grey" }}>
-          Created by Filip Müller - muller@gvp.cz
+          Created by Filip Müller<br></br>
+          <span className="ml-5">muller@gvp.cz</span>
         </a>
       </div>
     );
