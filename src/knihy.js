@@ -1,129 +1,129 @@
-let s = `1;Epos o Gigamešovi;;18;proza
-2;Bible: Starý zákon (5 knih Mojžíšových);;18;proza
-3;Bible: Nový zákon;;18;proza
-4;Odysseia;Homér;18;proza
-5;Ílias;Homér;18;proza
+let s = `1;Epos o Gigamešovi;;18;poezie
+2;Bible: Starý zákon (5 knih Mojžíšových);;18;
+3;Bible: Nový zákon;;18;
+4;Odysseia;Homér;18;poezie
+5;Ílias;Homér;18;poezie
 6;Lyrika;Sapfó;18;poezie
 7;Král Oidipus;Sofokles;18;drama
 8;Antigona;Sofokles;18;drama
 9;Médea;Euripides;18;drama
-10;Proměny;Ovidius;18;
-11;Píseň o Cidovi;;18;
-12;Tristan a Izolda;;18;
-13;Milion;Marco Polo;18;
-14;Božská komedie;Dante Alighieri;18;
-15;Legenda o sv. Kateřině;;18;
-16;Dekameron;Giovanni Boccaccio;18;
-17;Sonety Lauře;Francesco Petrarca;18;
-18;Závěť;Francois Villon;18;
-19;Sen noci svatojánské;William Shakespeare;18;
-20;Hamlet;William Shakespeare;18;
-21;Král Lear;William Shakespeare;18;
-22;Sonety;William Shakespeare;18;
-23;Důmyslný rytíř Don Quijote de la Mancha;Miguel de Cervantes y Saavedra;18;
-24;Labyrint světa a ráj srdce;Jan Amos Komenský;18;
-25;Co Bůh? Co člověk?;Bedřich Bridel;18;
-26;Cid;Pierre Corneille;18;
-27;Lakomec;Moliere;18;
-28;Tartuffe;Moliere;18;
+10;Proměny;Ovidius;18;poezie
+11;Píseň o Cidovi;;18;poezie
+12;Tristan a Izolda;;18;poezie
+13;Milion;Marco Polo;18;proza
+14;Božská komedie;Dante Alighieri;18;poezie
+15;Legenda o sv. Kateřině;;18;poezie
+16;Dekameron;Giovanni Boccaccio;18;proza
+17;Sonety Lauře;Francesco Petrarca;18;poezie
+18;Závěť;Francois Villon;18;poezie
+19;Sen noci svatojánské;William Shakespeare;18;drama
+20;Hamlet;William Shakespeare;18;drama
+21;Král Lear;William Shakespeare;18;drama
+22;Sonety;William Shakespeare;18;drama
+23;Důmyslný rytíř Don Quijote de la Mancha;Miguel de Cervantes y Saavedra;18;proza
+24;Labyrint světa a ráj srdce;Jan Amos Komenský;18;proza
+25;Co Bůh? Co člověk?;Bedřich Bridel;18;poezie
+26;Cid;Pierre Corneille;18;drama
+27;Lakomec;Moliere;18;drama
+28;Tartuffe;Moliere;18;drama
 29;Bajky;Jean de la Fontaine;18;
-30;Gulliverovy cesty;Jonathan Swift;18;
-31;Skromný návrh;Jonathan Swift;18;
-32;Candide;Voltaire;18;
-33;Nebezpečné známosti;Choderlos de Laclos;18;
-34;Utrpení mladého Werthera;Johann Wolfgang Goethe;18;
-35;Život Lazarilla z Tormesu, jeho příhody a nehody;;18;
-36;Zkrocení zlé ženy;William Shakespeare;18;
-37;Loupežníci;Friedrich Schiller;18;
-38;Rome a Julie;William Shakespeare;18;
-39;Sluha dvou pánů;Carlo Goldoni;18;
-40;Faust;Johann Wolfgang Goethe;19;
-41;Ivanhoe;Walter Scott;19;
-42;Pýcha a předsudek;Jane Austenová;19;
-43;Na větrné hůrce;Emily Brontëová;19;
-44;Evžen Oněgin;Alexandr Sergejevič Puškin;19;
-45;Červený a černý;Stendhal;19;
-46;Chrám Matky Boží v Paříži;Victor Hugo;19;
-47;Otec Goriot;Honoré de Balzac;19;
-48;Petrohradské povídky;Nikolaj Vasiljevič Gogol;19;
-49;Mrtvé duše;Nikolaj Vasiljevič Gogol;19;
-50;Hrdina naší doby;Michail Jurjevič Lermontov;19;
-51;Povídky;Edgar Allan Poe;19;
-52;Havran;Edgar Allan Poe;19;
-53;Stébla trávy;Walt Whitman;19;
-54;Paní Bovaryová;Gustave Flaubert;19;
-55;Květy zla;Charles Baudelaire;19;
-56;Zločin a trest;Fjodor Michajlovič Dostojevskij;19;
-57;Bratři Karamazovi;Fjodor Michajlovič Dostojevskij;19;
-58;Idiot;Fjodor Michajlovič Dostojevskij;19;
-59;Anna Kareninová;Lev Nikolajevič Tolstoj;19;
-60;Poezie;Artur Rimbaud;19;
-61;Zabiják;Emile Zola;19;
-62;Tereza Raquinová;Emile Zola;19;
-63;Miláček;Guy de Maupassant;19;
-64;Oliver Twist;Charles Dickens;19;
-65;Obraz Doriana Graye;Oscar Wilde;19;
-66;Evženie Grandetová;Honoré de Balzac;19;
-67;Démon;Michail Jurjevič Lermontov;19;
-68;Zpověď dítěte svého věku;Alfred de Musset;19;
-69;Dělnící moře;Victor Hugo;19;
-70;Obrazy ze života mého;Karel Hynek Mácha;19;
-71;Pouť krkonošská;Karel Hynek Mácha;19;
-72;Cikáni;Karel Hynek Mácha;19;
-73;Máj;Karel Hynek Mácha;19;
-74;Křest svatého Vladimíra;Karel Havlíček Borovský;19;
-75;Tyrolské elegie;Karel Havlíček Borovský;19;
-76;Kytice;Karel Jaromír Erben;19;
-77;Babička;Božena Němcová;19;
-78;V zámku a podzámčí;Božena Němcová;19;
-79;Divá Bára;Božena Němcová;19;
-80;Povídky malostranské;Jan Neruda;19;
-81;Balady a romance;Jan Neruda;19;
-82;Hřbitovní kvítí;Jan Neruda;19;
-83;Svatý Xaverius;Jakub Arbes;19;
-84;Tři legendy o krucifixu;Julius Zeyer;19;
-85;Okna v bouři;Jaroslav Vrchlický;19;
-86;Kuře melancholik;Josef Karel Šlejhar;19;
-87;Svítání na západě;Otokar Březina;19;
-88;Slezské písně;Petr Bezruč;19;
-89;Selské písně a české znělky;Josef Václav Sládek;19;
-90;ohlasová poezie;František Ladislav Čelakovský;19;
-91;Kalibův zločin;Karel Václav Rais;19;
+30;Gulliverovy cesty;Jonathan Swift;18;proza
+31;Skromný návrh;Jonathan Swift;18;proza
+32;Candide;Voltaire;18;proza
+33;Nebezpečné známosti;Choderlos de Laclos;18;proza
+34;Utrpení mladého Werthera;Johann Wolfgang Goethe;18;proza
+35;Život Lazarilla z Tormesu, jeho příhody a nehody;;18;proza
+36;Zkrocení zlé ženy;William Shakespeare;18;drama
+37;Loupežníci;Friedrich Schiller;18;drama
+38;Rome a Julie;William Shakespeare;18;drama
+39;Sluha dvou pánů;Carlo Goldoni;18;drama
+40;Faust;Johann Wolfgang Goethe;19;drama
+41;Ivanhoe;Walter Scott;19;proza
+42;Pýcha a předsudek;Jane Austenová;19;proza
+43;Na větrné hůrce;Emily Brontëová;19;proza
+44;Evžen Oněgin;Alexandr Sergejevič Puškin;19;proza
+45;Červený a černý;Stendhal;19;proza
+46;Chrám Matky Boží v Paříži;Victor Hugo;19;proza
+47;Otec Goriot;Honoré de Balzac;19;proza
+48;Petrohradské povídky;Nikolaj Vasiljevič Gogol;19;proza
+49;Mrtvé duše;Nikolaj Vasiljevič Gogol;19;proza
+50;Hrdina naší doby;Michail Jurjevič Lermontov;19;proza
+51;Povídky;Edgar Allan Poe;19;proza
+52;Havran;Edgar Allan Poe;19;poezie
+53;Stébla trávy;Walt Whitman;19;poezie
+54;Paní Bovaryová;Gustave Flaubert;19;proza
+55;Květy zla;Charles Baudelaire;19;poezie
+56;Zločin a trest;Fjodor Michajlovič Dostojevskij;19;proza
+57;Bratři Karamazovi;Fjodor Michajlovič Dostojevskij;19;proza
+58;Idiot;Fjodor Michajlovič Dostojevskij;19;proza
+59;Anna Kareninová;Lev Nikolajevič Tolstoj;19;proza
+60;Poezie;Artur Rimbaud;19;poezie
+61;Zabiják;Emile Zola;19;proza
+62;Tereza Raquinová;Emile Zola;19;proza
+63;Miláček;Guy de Maupassant;19;proza
+64;Oliver Twist;Charles Dickens;19;proza
+65;Obraz Doriana Graye;Oscar Wilde;19;proza
+66;Evženie Grandetová;Honoré de Balzac;19;proza
+67;Démon;Michail Jurjevič Lermontov;19;poezie
+68;Zpověď dítěte svého věku;Alfred de Musset;19;proza
+69;Dělnící moře;Victor Hugo;19;proza
+70;Obrazy ze života mého;Karel Hynek Mácha;19;proza
+71;Pouť krkonošská;Karel Hynek Mácha;19;proza
+72;Cikáni;Karel Hynek Mácha;19;proza
+73;Máj;Karel Hynek Mácha;19;poezie
+74;Křest svatého Vladimíra;Karel Havlíček Borovský;19;poezie
+75;Tyrolské elegie;Karel Havlíček Borovský;19;poezie
+76;Kytice;Karel Jaromír Erben;19;poezie
+77;Babička;Božena Němcová;19;proza
+78;V zámku a podzámčí;Božena Němcová;19;proza
+79;Divá Bára;Božena Němcová;19;proza
+80;Povídky malostranské;Jan Neruda;19;proza
+81;Balady a romance;Jan Neruda;19;poezie
+82;Hřbitovní kvítí;Jan Neruda;19;poezie
+83;Svatý Xaverius;Jakub Arbes;19;proza
+84;Tři legendy o krucifixu;Julius Zeyer;19;proza
+85;Okna v bouři;Jaroslav Vrchlický;19;poezie
+86;Kuře melancholik;Josef Karel Šlejhar;19;proza
+87;Svítání na západě;Otokar Březina;19;poezie
+88;Slezské písně;Petr Bezruč;19;poezie
+89;Selské písně a české znělky;Josef Václav Sládek;19;poezie
+90;ohlasová poezie;František Ladislav Čelakovský;19;poezie
+91;Kalibův zločin;Karel Václav Rais;19;proza
 92;Maškaráda;Michail Jurijevič Lermontov;19;drama
 93;Revizor;Nikolaj Vasiljevič Gogol;19;drama
 94;Ženitba;Nikolaj Vasiljevič Gogol;19;drama
 95;Král Ubu;Alfréd Jarry;19;drama
-96;Višňový sad;Anton Pavlovič Čechov;;drama
-97;Tři sestry;Anton Pavlovič Čechov;;drama
-98;Gazdina roba;Gabriela Preissová;;drama
-99;Lucerna;Alois Jirásek;;drama
-100;Maryša;Alois a Vilém Mrštíkové;;drama
-101;Měsíc nad řekou;Fráňa Šrámek;;drama
-102;R. U. R.;Karel Čapek;;drama
-103;Ze života hmyzu;Karel a Josef Čapkové;;drama
-104;Bílá nemoc;Karel Čapek;;drama
-105;Věc Makropulos;Karel Čapek;;drama
-106;Balada z hadrů;J.Voskovec-J.Werich;;drama
-107;Pygmalion;George Bernard Shaw;;drama
-108;Matka Kuráž a její děti;Bertold Brecht;;drama
-109;Čekání na Godota;Samuel Beckett;;drama
-110;Zahradní slavnost;Václav Havel;;drama
-111;Audience;Václav Havel;;drama
-112;Jakub a jeho pán;Milan Kundera;;drama
-113;Smrt obchodního cestujícího;Arthur Miller;;drama
-114;Plešatá zpěvačka;Eugene Ionesco;;drama
-115;Fyzikové;Friedrich Dürrenmatt;;drama
-116;Tramvaj do stanice Touha;Tennessee Williams;;drama
-117;Kdo se bojí Virginie Woolfové?;Edward Albee;;drama
-118;Návštěva staré dámy;Friedrich Dürrenmatt;;drama
-119;Šest postav hledá autora;Luigi Pirandello;;drama
-120;Dům Bernardy Albové;Federico García Lorca;;drama
-121;Kočka na rozpálené plechové střeše;Tennessee Williams;;drama
-122;Těžká Barbora;J.Voskovec-J.Werich;;drama
-123;Loupežník;Karel Čapek;;drama
-124;Periferie;František Langer;;drama
-125;Manon Lescaut;Vítězslav Nezval;;drama
-126;Její pastorkyňa;Gabriela Preissová;;drama
+96;Višňový sad;Anton Pavlovič Čechov;20-21-cz;drama
+97;Tři sestry;Anton Pavlovič Čechov;20-21-cz;drama
+98;Gazdina roba;Gabriela Preissová;19;drama
+99;Lucerna;Alois Jirásek;20-21-cz;drama
+100;Maryša;Alois a Vilém Mrštíkové;19;drama
+101;Měsíc nad řekou;Fráňa Šrámek;20-21-cz;drama
+102;R. U. R.;Karel Čapek;20-21-cz;drama
+103;Ze života hmyzu;Karel a Josef Čapkové;20-21-cz;drama
+104;Bílá nemoc;Karel Čapek;20-21-cz;drama
+105;Věc Makropulos;Karel Čapek;20-21-cz;drama
+106;Balada z hadrů;J.Voskovec-J.Werich;20-21-cz;drama
+107;Pygmalion;George Bernard Shaw;20-21-svet;drama
+108;Matka Kuráž a její děti;Bertold Brecht;20-21-svet;drama
+109;Čekání na Godota;Samuel Beckett;20-21-svet;drama
+110;Zahradní slavnost;Václav Havel;20-21-cz;drama
+111;Audience;Václav Havel;20-21-cz;drama
+112;Jakub a jeho pán;Milan Kundera;20-21-cz;drama
+113;Smrt obchodního cestujícího;Arthur Miller;20-21-svet;drama
+114;Plešatá zpěvačka;Eugene Ionesco;20-21-svet;drama
+115;Fyzikové;Friedrich Dürrenmatt;20-21-svet;drama
+116;Tramvaj do stanice Touha;Tennessee Williams;20-21-svet;drama
+117;Kdo se bojí Virginie Woolfové?;Edward Albee;20-21-svet;drama
+118;Návštěva staré dámy;Friedrich Dürrenmatt;20-21-svet;drama
+119;Šest postav hledá autora;Luigi Pirandello;20-21-svet;drama
+120;Dům Bernardy Albové;Federico García Lorca;20-21-svet;drama
+121;Kočka na rozpálené plechové střeše;Tennessee Williams;20-21-svet;drama
+122;Těžká Barbora;J.Voskovec-J.Werich;20-21-cz;drama
+123;Loupežník;Karel Čapek;20-21-cz;drama
+124;Periferie;František Langer;20-21-cz;drama
+125;Manon Lescaut;Vítězslav Nezval;20-21-cz;drama
+126;Její pastorkyňa;Gabriela Preissová;19;drama
 127;Alkoholy;Guillaume Apollinaire;20-21-svet;poezie
 128;Osvobozená slova;Filippo Tommaso Marinetti;20-21-svet;poezie
 129;Pustina;Thomas Stearns Eliot;20-21-svet;poezie

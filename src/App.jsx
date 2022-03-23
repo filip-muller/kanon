@@ -20,24 +20,20 @@ class App extends Component {
   };
 
   handleSelect = (id) => {
-    let { vybrano_celkem: vybrano_celkem } = this.state.pocty;
-    if (vybrano_celkem >= 20) {
-      alert("Již máš vybráno 20 děl");
-      return;
-    }
-    // najdi knihu ktera byla vybrana a zmen u ni selected
-    let knihy = this.state.knihy.map((k) => {
-      if (k.id == id) {
-        k.selected = true;
+    let kniha = this.state.knihy.filter((k) => k.id == id)[0];
+    if (!kniha.selected) {
+      if (this.state.pocty.vybrano_celkem >= 20) {
+        alert("Už máš vybráno 20 děl");
+        return;
       }
-      return k;
-    });
-    this.setState({ knihy });
+    }
+    kniha.selected = !kniha.selected;
     this.updatePocty();
   };
 
   updatePocty = () => {
     let { knihy } = this.state;
+
     let pocty = {
       vybrano_celkem: knihy.filter((k) => k.selected).length,
       vybrano_proza: knihy.filter((k) => k.selected && k.druh == "proza")
@@ -64,8 +60,34 @@ class App extends Component {
       <div>
         <Navbar pocty={this.state.pocty} />
         <div className="m-3">
-          <ListDel knihy={knihy} onSelect={this.handleSelect} />
+          <ListDel
+            knihy={knihy}
+            title="18. století a starší"
+            obdobi="18"
+            onSelect={this.handleSelect}
+          />
+          <ListDel
+            knihy={knihy}
+            title="19. století"
+            obdobi="19"
+            onSelect={this.handleSelect}
+          />
+          <ListDel
+            knihy={knihy}
+            title="Světová literatura 20. a 21. století"
+            obdobi="20-21-svet"
+            onSelect={this.handleSelect}
+          />
+          <ListDel
+            knihy={knihy}
+            title="Česká literatura 20. a 21. století"
+            obdobi="20-21-cz"
+            onSelect={this.handleSelect}
+          />
         </div>
+        <a className="m-5" style={{ color: "grey" }}>
+          Created by Filip Müller - muller@gvp.cz
+        </a>
       </div>
     );
   }

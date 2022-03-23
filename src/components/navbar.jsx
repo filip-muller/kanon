@@ -32,7 +32,7 @@ class Navbar extends Component {
     } = this.state.potreba;
 
     return (
-      <nav class="navbar sticky-top navbar-light bg-light navbar-expand-lg">
+      <nav className="navbar sticky-top navbar-light bg-light navbar-expand-lg">
         <SelectCount
           text="Vybráno"
           vybrano={vybrano_celkem}

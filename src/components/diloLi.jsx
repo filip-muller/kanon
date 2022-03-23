@@ -16,7 +16,7 @@ class DiloLi extends Component {
           "list-group-item list-group-item-action noselect" +
           (selected && " active")
         }
-        style={{ cursor: "default" }}
+        style={{ cursor: "pointer" }}
         onClick={() => this.props.onSelect(id)}
       >
         <Dilo kniha={this.props.kniha} />
