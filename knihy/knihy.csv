@@ -42,7 +42,7 @@ id;nazev;autor;obdobi;druh
 41;Ivanhoe;Walter Scott;19;proza
 42;Pýcha a předsudek;Jane Austenová;19;proza
 43;Na větrné hůrce;Emily Brontëová;19;proza
-44;Evžen Oněgin;Alexandr Sergejevič Puškin;19;proza
+44;Evžen Oněgin;Alexandr Sergejevič Puškin;19;poezie
 45;Červený a černý;Stendhal;19;proza
 46;Chrám Matky Boží v Paříži;Victor Hugo;19;proza
 47;Otec Goriot;Honoré de Balzac;19;proza
@@ -94,8 +94,8 @@ id;nazev;autor;obdobi;druh
 93;Revizor;Nikolaj Vasiljevič Gogol;19;drama
 94;Ženitba;Nikolaj Vasiljevič Gogol;19;drama
 95;Král Ubu;Alfréd Jarry;19;drama
-96;Višňový sad;Anton Pavlovič Čechov;20-21-cz;drama
-97;Tři sestry;Anton Pavlovič Čechov;20-21-cz;drama
+96;Višňový sad;Anton Pavlovič Čechov;20-21-svet;drama
+97;Tři sestry;Anton Pavlovič Čechov;20-21-svet;drama
 98;Gazdina roba;Gabriela Preissová;19;drama
 99;Lucerna;Alois Jirásek;20-21-cz;drama
 100;Maryša;Alois a Vilém Mrštíkové;19;drama
