@@ -28,23 +28,24 @@ class App extends Component {
       }
     }
     let autor = [kniha.autor];
-    if (autor[0] === "Karel Čapek") autor.push("Karel a Josef Čapkové");
-    else if (autor[0] === "Karel a Josef Čapkové") {
-      autor.push("Karel Čapek");
-      autor.push("Josef Čapek");
-    }
-    let stejny_autor = false;
-    let nazev_stejne;
-    this.state.knihy.map((k) => {
-      if (k.selected && autor.includes(k.autor) && k.id != id) {
-        stejny_autor = true;
-        nazev_stejne = k.nazev;
+    if (autor != "") {
+      if (autor[0] === "Karel Čapek") autor.push("Karel a Josef Čapkové");
+      else if (autor[0] === "Karel a Josef Čapkové") {
+        autor.push("Karel Čapek");
+        autor.push("Josef Čapek");
       }
-    });
-
-    if (stejny_autor) {
-      alert("Od tohoto autora už máš dílo " + nazev_stejne);
-      return;
+      let stejny_autor = false;
+      let nazev_stejne;
+      this.state.knihy.map((k) => {
+        if (k.selected && autor.includes(k.autor) && k.id != id) {
+          stejny_autor = true;
+          nazev_stejne = k.nazev;
+        }
+      });
+      if (stejny_autor) {
+        alert("Od tohoto autora už máš dílo " + nazev_stejne);
+        return;
+      }
     }
     kniha.selected = !kniha.selected;
     this.updatePocty();
