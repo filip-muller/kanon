@@ -57,21 +57,25 @@ class Navbar extends Component {
           text="Do 18. století"
           vybrano={vybrano_18}
           potreba={potreba_18}
+          ref_="18"
         />
         <SelectCount
           text="19. století"
           vybrano={vybrano_19}
           potreba={potreba_19}
+          ref_="19"
         />
         <SelectCount
           text="20. a 21. století svět"
           vybrano={vybrano_20_21_svet}
           potreba={potreba_20_21_svet}
+          ref_="20-21-svet"
         />
         <SelectCount
           text="20. a 21. století česká"
           vybrano={vybrano_20_21_cz}
           potreba={potreba_20_21_cz}
+          ref_="20-21-cz"
         />
       </nav>
     );

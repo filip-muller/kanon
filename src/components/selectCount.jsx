@@ -16,6 +16,7 @@ class SelectCount extends Component {
     return (
       <span
         className={this.getBadgeStyle(vybrano, potreba) + "badge ml-3 mb-2 p-2"}
+        onClick={() => (window.location.href = "#" + (this.props.ref_ || ""))}
       >
         {this.props.text + ": " + vybrano + "/" + potreba}
       </span>
