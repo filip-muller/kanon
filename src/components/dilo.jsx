@@ -1,4 +1,4 @@
-/* Znazornuje jednotlive dilo a informace o něm, jako nazev, autor a druh*/
+/* Znazornuje jednotlive dilo a informace o něm, jako nazev, autor a druh */
 
 import React, { Component } from "react";
 
@@ -22,18 +22,18 @@ class Dilo extends Component {
 
   getDruh = () => {
     let { druh } = this.props.kniha;
-    if (druh == "proza") {
+    if (druh === "proza") {
       return "próza";
     }
     return druh;
   };
 
   render() {
-    const { id, nazev, autor, obdobi, druh } = this.props.kniha;
+    const { nazev, autor } = this.props.kniha;
 
     return (
       <div>
-        <span>{autor != "" && autor + ": "}</span>
+        <span>{autor !== "" && autor + ": "}</span>
         <span>{nazev}</span>
         <span className={this.getClassName() + " ml-3"}>{this.getDruh()}</span>
       </div>
