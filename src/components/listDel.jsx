@@ -4,28 +4,50 @@
 
 import React, { Component } from "react";
 import DiloLi from "./diloLi";
+import HideBtn from "./hideBtn";
 
-class ListDel18 extends Component {
-  state = {};
+class ListDel extends Component {
+  state = { hidden: false };
+
+  handleHide = () => {
+    this.setState({ hidden: !this.state.hidden });
+  };
+
+  formatCount = () => {
+    if (this.props.vybrano == 0) return "";
+    return this.props.vybrano;
+  };
 
   render() {
     return (
       <div className="card m-3" id={this.props.obdobi}>
-        <h5 className="card-header card-title">{this.props.title}</h5>
-        <ul className="list-group list-group-flush">
-          {this.props.knihy
-            .filter((k) => k.obdobi == this.props.obdobi)
-            .map((kniha) => (
-              <DiloLi
-                key={kniha.id}
-                kniha={kniha}
-                onSelect={this.props.onSelect}
-              />
-            ))}
-        </ul>
+        <span className="card-header card-title">
+          <h5 style={{ display: "inline" }}>{this.props.title}</h5>
+          <span className="badge badge-pill badge-primary ml-2">
+            {this.formatCount()}
+          </span>
+          <HideBtn onClick_={this.handleHide} hidden={this.state.hidden} />
+        </span>
+        {!this.state.hidden && (
+          <ul className="list-group list-group-flush">
+            {this.props.knihy
+              .filter(
+                (k) =>
+                  k.obdobi == this.props.obdobi &&
+                  this.props.checkedDruhy.includes(k.druh)
+              )
+              .map((kniha) => (
+                <DiloLi
+                  key={kniha.id}
+                  kniha={kniha}
+                  onSelect={this.props.onSelect}
+                />
+              ))}
+          </ul>
+        )}
       </div>
     );
   }
 }
 
-export default ListDel18;
+export default ListDel;

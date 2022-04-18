@@ -1,13 +1,26 @@
 /* Predstavuje jednotlive bagdes pocitajici, kolik ktereho druhu del je vybrano */
 
 import React, { Component } from "react";
+import "../index.css";
 
 class SelectCount extends Component {
-  getBadgeStyle = (soucasny_pocet, potrebny_pocet) => {
-    if (soucasny_pocet < potrebny_pocet) {
+  getBadgeStyle = (t) => {
+    const { vybrano, potreba } = this.props;
+    if (vybrano < potreba) {
       return "badge-warning ";
     }
     return "badge-success ";
+  };
+
+  getOnClick = () => {
+    if (this.props.ref_)
+      return () => (window.location.href = "#" + this.props.ref_);
+    return () => {};
+  };
+
+  getStyle = () => {
+    if (this.props.ref_) return { cursor: "pointer" };
+    return {};
   };
 
   render() {
@@ -15,8 +28,9 @@ class SelectCount extends Component {
     let potreba = this.props.potreba;
     return (
       <span
-        className={this.getBadgeStyle(vybrano, potreba) + "badge ml-3 mb-2 p-2"}
-        onClick={() => (window.location.href = "#" + (this.props.ref_ || ""))}
+        className={this.getBadgeStyle() + "badge ml-3 mb-2 p-2 noselect"}
+        onClick={this.getOnClick()}
+        style={this.getStyle()}
       >
         {this.props.text + ": " + vybrano + "/" + potreba}
       </span>

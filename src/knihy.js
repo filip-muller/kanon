@@ -1,6 +1,6 @@
 let s = `1;Epos o Gigamešovi;;18;poezie
-2;Bible: Starý zákon (5 knih Mojžíšových);;18;
-3;Bible: Nový zákon;;18;
+2;Bible: Starý zákon (5 knih Mojžíšových);;18;proza
+3;Bible: Nový zákon;;18;proza
 4;Odysseia;Homér;18;poezie
 5;Ílias;Homér;18;poezie
 6;Lyrika;Sapfó;18;poezie
@@ -289,19 +289,20 @@ let s = `1;Epos o Gigamešovi;;18;poezie
 289;Nebe pod Berlínem;Jaroslav Rudiš;20-21-cz;proza
 290;Povětroň;Karel Čapek;20-21-cz;proza
 291;Dvorní šašci;Viktor Fischl;20-21-cz;proza
-292;Nesnesitelná lehkost bytí;Milan Kundera;20-21-cz;proza`
+292;Nesnesitelná lehkost bytí;Milan Kundera;20-21-cz;proza`;
 
 const lines = s.split("\n");
 
-export const knihy = lines.map(line => {
+export const knihy = lines.map((line) => {
   let spl = line.split(";");
-  return {id: Number(spl[0]),
+  return {
+    id: Number(spl[0]),
     nazev: spl[1],
     autor: spl[2],
     obdobi: spl[3],
     druh: spl[4],
-    selected: false
-  }
+    selected: false,
+  };
 });
 
 export const delka = lines.length;
