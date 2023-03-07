@@ -4,8 +4,6 @@ import React, { Component } from "react";
 import "../index.css";
 
 class HideBtn extends Component {
-  state = { text: "▲" };
-
   getText = () => {
     if (this.props.hidden) return "▼";
     return "▲";
@@ -19,7 +17,6 @@ class HideBtn extends Component {
           cursor: "pointer",
           fontSize: "0.75rem",
         }}
-        onClick={this.props.onClick_}
       >
         <span className="m-1">{this.getText()}</span>
       </span>

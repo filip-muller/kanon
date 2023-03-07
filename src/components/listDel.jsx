@@ -21,12 +21,18 @@ class ListDel extends Component {
   render() {
     return (
       <div className="card m-3" id={this.props.obdobi}>
-        <span className="card-header card-title">
+        <span
+          className="card-header card-title noselect"
+          style={{
+            cursor: "pointer",
+          }}
+          onClick={this.handleHide}
+        >
           <h5 style={{ display: "inline" }}>{this.props.title}</h5>
           <span className="badge badge-pill badge-primary ml-2">
             {this.formatCount()}
           </span>
-          <HideBtn onClick_={this.handleHide} hidden={this.state.hidden} />
+          <HideBtn hidden={this.state.hidden} />
         </span>
         {!this.state.hidden && (
           <ul className="list-group list-group-flush">
